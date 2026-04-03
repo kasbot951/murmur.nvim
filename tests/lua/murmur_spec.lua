@@ -1,0 +1,6 @@
+describe("murmur", function()
+  it("can be required", function()
+    local murmur = require("murmur")
+    assert.is_not_nil(murmur)
+  end)
+end)
